@@ -27,7 +27,7 @@ const TimelineSection = ({ language }) => {
         ? 'بدأت رحلتي في عالم التطوير والتصميم كمطور مستقل، حيث عملت على مشاريع متنوعة في تطوير الويب وتصميم واجهات المستخدم.'
         : 'Started my journey in development and design as a freelance developer, working on diverse projects in web development and UI design.',
       achievements: [
-        language === 'ar' ? 'إتمام 15+ مشروع ويب' : 'Completed 15+ web projects',
+        language === 'ar' ? 'إتمام 5+ مشروع ويب' : 'Completed 5+ web projects',
         language === 'ar' ? 'تعلم React و Laravel' : 'Learned React & Laravel',
         language === 'ar' ? 'بناء قاعدة عملاء قوية' : 'Built strong client base'
       ],
@@ -36,14 +36,14 @@ const TimelineSection = ({ language }) => {
     },
     {
       year: "2023",
-      title: language === 'ar' ? 'مصمم UI/UX' : 'UI/UX Designer',
-      company: language === 'ar' ? 'شركة التقنيات الرقمية' : 'Digital Tech Solutions',
-      location: language === 'ar' ? 'الرياض، السعودية' : 'Riyadh, Saudi Arabia',
+      title: language === 'ar' ? 'مصمم ومطور مواقع' : 'Website designer and developer',
+      company: language === 'ar' ? ' رونق للدعاية والاعلان ' : 'Rawnaq Advertising and Publicity',
+      location: language === 'ar' ? 'صنعاء، اليمن' : 'Sana'a,  Yemen',
       description: language === 'ar'
         ? 'انضممت إلى فريق التصميم في شركة رائدة في مجال التقنيات الرقمية، حيث ركزت على تصميم تجارب المستخدم وواجهات التطبيقات.'
         : 'Joined the design team at a leading digital technology company, focusing on user experience design and application interfaces.',
       achievements: [
-        language === 'ar' ? 'تصميم 8 تطبيقات جوال' : 'Designed 8 mobile applications',
+        language === 'ar' ? 'تصميم 5 مواقع ويب' : 'Design 5 websites',
         language === 'ar' ? 'تحسين تجربة المستخدم بنسبة 40%' : 'Improved UX by 40%',
         language === 'ar' ? 'قيادة ورش عمل التصميم' : 'Led design workshops'
       ],
@@ -52,12 +52,12 @@ const TimelineSection = ({ language }) => {
     },
     {
       year: "2024",
-      title: language === 'ar' ? 'مطور تطبيقات متقدم' : 'Senior Application Developer',
-      company: language === 'ar' ? 'مجموعة الابتكار التقني' : 'Tech Innovation Group',
-      location: language === 'ar' ? 'دبي، الإمارات' : 'Dubai, UAE',
+      title: language === 'ar' ? 'مصمم UI/UX' : 'UI/UX Designer',
+      company: language === 'ar' ? 'فريق إدراك ' : 'Edraak Team',
+      location: language === 'ar' ? 'صنعاء، اليمن' : 'Sana'a,  Yemen',
       description: language === 'ar'
-        ? 'تطوير مهاراتي في تطوير التطبيقات المتقدمة باستخدام Flutter و React Native، مع التركيز على الحلول المبتكرة.'
-        : 'Advanced my skills in sophisticated app development using Flutter and React Native, focusing on innovative solutions.',
+        ? 'تطوير مهاراتي في تطوير التطبيقات المتقدمة باستخدام Flutter، مع التركيز على الحلول المبتكرة.'
+        : 'Advanced my skills in sophisticated app development using Flutter  , focusing on innovative solutions.',
       achievements: [
         language === 'ar' ? 'تطوير 5 تطبيقات معقدة' : 'Developed 5 complex applications',
         language === 'ar' ? 'تنفيذ حلول الذكاء الاصطناعي' : 'Implemented AI solutions',
@@ -70,10 +70,10 @@ const TimelineSection = ({ language }) => {
       year: "2025",
       title: language === 'ar' ? 'خبير التسويق الرقمي والتطوير' : 'Digital Marketing & Development Expert',
       company: language === 'ar' ? 'استشاري مستقل' : 'Independent Consultant',
-      location: language === 'ar' ? 'عالمياً' : 'Global',
+      location: language === 'ar' ? 'محلياَ' : 'local',
       description: language === 'ar'
-        ? 'الجمع بين خبرتي في التطوير والتصميم مع التسويق الرقمي لتقديم حلول شاملة للعملاء حول العالم.'
-        : 'Combining my development and design expertise with digital marketing to provide comprehensive solutions for clients worldwide.',
+        ? 'الجمع بين خبرتي في التطوير والتصميم مع التسويق الرقمي لتقديم حلول شاملة للعملاء  .'
+        : 'Combining my development and design expertise with digital marketing to provide comprehensive solutions for clients .',
       achievements: [
         language === 'ar' ? 'إطلاق وكالة رقمية' : 'Launched digital agency',
         language === 'ar' ? 'تحقيق نمو 200% في الإيرادات' : 'Achieved 200% revenue growth',
