@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Moon, Sun, Globe } from 'lucide-react';
 import { Button } from './ui/button';
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
 
 const Header = ({ darkMode, toggleDarkMode, language, toggleLanguage, onViewMyWork }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,11 +45,11 @@ const Header = ({ darkMode, toggleDarkMode, language, toggleLanguage, onViewMyWo
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
+{/*             <img 
               src={logo} 
               alt="Abdulrahman Al-Miqdad Logo" 
               className="w-12 h-12 object-contain"
-            />
+            /> */}
             <div className="hidden md:block">
               <h1 className="text-xl font-bold gradient-text">
                 {language === 'ar' ? 'عبد الرحمن المقداد' : 'Abdulrahman Al-Miqdad'}
