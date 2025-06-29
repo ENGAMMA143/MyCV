@@ -19,7 +19,7 @@ const HeroSection = ({ language, onViewMyWork }) => {
       scrollDown: "Scroll Down",
       stats: [
         { number: "3+", label: "Years Experience" },
-        { number: "50+", label: "Projects Completed" },
+        { number: "15+", label: "Projects Completed" },
         { number: "100%", label: "Client Satisfaction" }
       ]
     },
@@ -34,7 +34,7 @@ const HeroSection = ({ language, onViewMyWork }) => {
       scrollDown: "انتقل للأسفل",
       stats: [
         { number: "+3", label: "سنوات خبرة" },
-        { number: "+50", label: "مشروع مكتمل" },
+        { number: "+15", label: "مشروع مكتمل" },
         { number: "100%", label: "رضا العملاء" }
       ]
     }
