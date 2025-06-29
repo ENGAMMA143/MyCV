@@ -11,9 +11,9 @@ const Footer = ({ language }) => {
       subtitle: "Ready to bring your ideas to life? Let's create something amazing together.",
       contact: {
         title: "Get In Touch",
-        email: "abdulrahman@example.com",
-        phone: "+966 50 123 4567",
-        location: "Riyadh, Saudi Arabia"
+        email: "abdulrhmanalmiqdad@gmail.com",
+        phone: "+967 775200378  ",
+        location: "Sana'a, Yemen"
       },
       services: {
         title: "Services",
@@ -47,9 +47,9 @@ const Footer = ({ language }) => {
       subtitle: "مستعد لتحويل أفكارك إلى واقع؟ دعنا ننشئ شيئاً مذهلاً معاً.",
       contact: {
         title: "تواصل معي",
-        email: "abdulrahman@example.com",
-        phone: "+966 50 123 4567",
-        location: "الرياض، السعودية"
+        email: "abdulrhmanalmiqdad@gmail.com",
+       phone: "+967 775200378  ",
+        location: "صنعاء, اليمن"
       },
       services: {
         title: "الخدمات",
@@ -86,7 +86,7 @@ const Footer = ({ language }) => {
     {
       name: 'GitHub',
       icon: <Github className="w-5 h-5" />,
-      href: 'https://github.com/abdulrahman',
+      href: 'https://github.com/ENGAMMA143',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
@@ -98,13 +98,13 @@ const Footer = ({ language }) => {
     {
       name: 'Email',
       icon: <Mail className="w-5 h-5" />,
-      href: 'mailto:abdulrahman@example.com',
+      href: 'mailto:abdulrhmanalmiqdad@gmail.com',
       color: 'hover:text-red-500'
     },
     {
       name: 'Phone',
       icon: <Phone className="w-5 h-5" />,
-      href: 'tel:+966501234567',
+      href: 'tel:+967775200378',
       color: 'hover:text-green-500'
     }
   ];
