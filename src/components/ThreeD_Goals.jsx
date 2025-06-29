@@ -17,7 +17,7 @@ const ThreeD_Goals = ({ language }) => {
         },
         {
           title: "Business Growth",
-          description: "Help 100+ businesses transform their digital presence and achieve growth",
+          description: "Help 10+ clients transform their digital presence and achieve growth",
           icon: "📈",
           color: "#059669"
         },
@@ -47,7 +47,7 @@ const ThreeD_Goals = ({ language }) => {
         },
         {
           title: "نمو الأعمال",
-          description: "مساعدة أكثر من 100 شركة في تحويل حضورها الرقمي وتحقيق النمو",
+          description: "مساعدة أكثر من 10 عملاء في تحويل حضورها الرقمي وتحقيق النمو",
           icon: "📈",
           color: "#059669"
         },
