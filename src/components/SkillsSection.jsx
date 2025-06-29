@@ -32,19 +32,19 @@ const SkillsSection = ({ language }) => {
       {
         icon: <Code className="w-6 h-6" />,
         name: language === 'ar' ? 'تطوير الواجهات الأمامية' : 'Front-End Development',
-        items: ['React', 'Next.js', 'HTML/CSS/JS', 'TypeScript'],
+        items: ['React','Bootstrap', 'HTML/CSS/JS', 'TypeScript'],
         color: 'text-blue-500'
       },
       {
         icon: <Smartphone className="w-6 h-6" />,
         name: language === 'ar' ? 'تطوير التطبيقات' : 'Mobile Development',
-        items: ['Flutter', 'React Native', 'iOS/Android'],
+        items: ['Flutter', 'FlutterFlow', 'iOS/Android'],
         color: 'text-green-500'
       },
       {
         icon: <Database className="w-6 h-6" />,
         name: language === 'ar' ? 'تطوير الخلفية' : 'Backend Development',
-        items: ['Laravel', '.NET', 'Node.js', 'APIs'],
+        items: ['.NET', 'php', 'APIs'],
         color: 'text-purple-500'
       },
       {
@@ -58,13 +58,13 @@ const SkillsSection = ({ language }) => {
       {
         icon: <Globe className="w-6 h-6" />,
         name: language === 'ar' ? 'أدوات التطوير' : 'Development Tools',
-        items: ['VS Code', 'Git', 'Docker', 'Webpack'],
+        items: ['VS Code', 'Git', 'Wordpress'],
         color: 'text-orange-500'
       },
       {
         icon: <Palette className="w-6 h-6" />,
         name: language === 'ar' ? 'أدوات التصميم' : 'Design Tools',
-        items: ['Figma', 'Adobe Creative Suite', 'Sketch', 'InVision'],
+        items: ['Figma', 'Sketch', 'InVision'],
         color: 'text-red-500'
       }
     ],
