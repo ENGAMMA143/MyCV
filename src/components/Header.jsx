@@ -41,7 +41,7 @@ const Header = ({ darkMode, toggleDarkMode, language, toggleLanguage, onViewMyWo
       }`}
       dir={language === 'ar' ? 'rtl' : 'ltr'}
     >
-      {/* 
+      {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo (تم حذف الأيقونة) */}
@@ -60,7 +60,7 @@ const Header = ({ darkMode, toggleDarkMode, language, toggleLanguage, onViewMyWo
               </p>
             </div>
           </div>
-      */}
+      }
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-8">
