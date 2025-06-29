@@ -1,0 +1,329 @@
+/* إصلاحات خاصة باللغة العربية مع خط مشابه لموقع sabbar.com */
+
+/* استيراد الخطوط العربية المحسنة */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Almarai:wght@300;400;700;800&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* الخط الأساسي للعربية - مشابه لموقع sabbar.com */
+.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Tajawal', 'Cairo', 'Almarai', 'Noto Sans Arabic', sans-serif;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Inter', 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+/* تحسين عرض النصوص العربية */
+.arabic-text {
+  font-family: 'Tajawal', 'Cairo', 'Almarai', 'Noto Sans Arabic', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* خط العناوين الرئيسية في العربية */
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+  font-family: 'Tajawal', 'Cairo', 'Almarai', sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+/* خط النصوص العادية في العربية */
+.rtl p, .rtl span, .rtl div {
+  font-family: 'Tajawal', 'Cairo', 'Almarai', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* خط الأزرار في العربية */
+.rtl button, .rtl .btn {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 12px 24px;
+  letter-spacing: 0;
+}
+
+/* إصلاح تنسيق الشبكة في العربية */
+.rtl .grid {
+  direction: rtl;
+}
+
+.rtl .grid > * {
+  direction: ltr;
+  text-align: right;
+}
+
+/* إصلاح تنسيق الفليكس في العربية */
+.rtl .flex {
+  flex-direction: row-reverse;
+}
+
+.rtl .flex.flex-col {
+  flex-direction: column;
+}
+
+.rtl .flex.flex-row {
+  flex-direction: row-reverse;
+}
+
+/* إصلاح تنسيق الهيدر في العربية */
+.rtl .header-nav {
+  flex-direction: row-reverse;
+}
+
+.rtl .nav-links {
+  flex-direction: row-reverse;
+}
+
+/* إصلاح تنسيق البطاقات في العربية */
+.rtl .card {
+  text-align: right;
+}
+
+.rtl .card-title {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 600;
+}
+
+.rtl .card-content {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+}
+
+/* إصلاح تنسيق القوائم في العربية */
+.rtl ul, .rtl ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+.rtl li {
+  text-align: right;
+}
+
+/* إصلاح تنسيق النماذج في العربية */
+.rtl input, .rtl textarea, .rtl select {
+  text-align: right;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+.rtl input::placeholder, .rtl textarea::placeholder {
+  text-align: right;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+/* إصلاح تنسيق الجداول في العربية */
+.rtl table {
+  direction: rtl;
+}
+
+.rtl th, .rtl td {
+  text-align: right;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+/* إصلاح تنسيق الأيقونات مع النص العربي */
+.rtl .icon-text {
+  flex-direction: row-reverse;
+}
+
+.rtl .icon-text .icon {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* إصلاح تنسيق الهوامش والحشو في العربية */
+.rtl .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.rtl .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.rtl .pr-4 {
+  padding-right: 0;
+  padding-left: 1rem;
+}
+
+.rtl .pl-4 {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+/* إصلاح تنسيق الحدود في العربية */
+.rtl .border-r {
+  border-right: none;
+  border-left: 1px solid;
+}
+
+.rtl .border-l {
+  border-left: none;
+  border-right: 1px solid;
+}
+
+/* تحسين عرض الأرقام في النصوص العربية */
+.rtl .number {
+  font-family: 'Tajawal', 'Cairo', monospace;
+  direction: ltr;
+  display: inline-block;
+}
+
+/* إصلاح تنسيق التنقل في العربية */
+.rtl .breadcrumb {
+  flex-direction: row-reverse;
+}
+
+.rtl .breadcrumb-separator {
+  transform: scaleX(-1);
+}
+
+/* إصلاح تنسيق الشرائح في العربية */
+.rtl .slider {
+  direction: rtl;
+}
+
+.rtl .slider-nav {
+  flex-direction: row-reverse;
+}
+
+/* إصلاح تنسيق القوائم المنسدلة في العربية */
+.rtl .dropdown {
+  text-align: right;
+}
+
+.rtl .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+/* إصلاح تنسيق الشبكات المتجاوبة في العربية */
+@media (max-width: 768px) {
+  .rtl .mobile-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .rtl .mobile-text-center {
+    text-align: center;
+  }
+}
+
+/* إصلاح تنسيق النصوص الطويلة في العربية */
+.rtl .text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* إصلاح تنسيق الاقتباسات في العربية */
+.rtl blockquote {
+  border-right: 4px solid;
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+  font-family: 'Tajawal', 'Cairo', serif;
+  font-style: normal;
+}
+
+/* إصلاح تنسيق الكود في العربية */
+.rtl code, .rtl pre {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Courier New', monospace;
+}
+
+/* تحسين عرض التواريخ والأوقات في العربية */
+.rtl .datetime {
+  direction: ltr;
+  display: inline-block;
+  font-family: 'Tajawal', monospace;
+}
+
+/* إصلاح تنسيق الشارات والعلامات في العربية */
+.rtl .badge {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+}
+
+/* إصلاح تنسيق الخطوات والمراحل في العربية */
+.rtl .steps {
+  flex-direction: row-reverse;
+}
+
+.rtl .step-connector {
+  transform: scaleX(-1);
+}
+
+/* تحسين عرض الروابط في العربية */
+.rtl a {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  text-decoration: none;
+}
+
+.rtl a:hover {
+  text-decoration: underline;
+}
+
+/* إصلاح تنسيق الإشعارات في العربية */
+.rtl .notification {
+  text-align: right;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+.rtl .notification-icon {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* تحسين عرض العناوين الفرعية في العربية */
+.rtl .subtitle {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 300;
+  color: #666;
+}
+
+/* إصلاح تنسيق الفواصل في العربية */
+.rtl .divider {
+  margin: 1rem 0;
+}
+
+.rtl .divider-text {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-size: 0.875rem;
+  color: #888;
+}
+
+/* تحسين عرض النصوص المميزة في العربية */
+.rtl .highlight {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(120deg, #ffeaa7 0%, #fab1a0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* إصلاح تنسيق الأزرار العائمة في العربية */
+.rtl .floating-btn {
+  right: auto;
+  left: 1rem;
+}
+
+/* تحسين عرض النصوص في الوضع المظلم */
+.dark .rtl {
+  color: #e2e8f0;
+}
+
+.dark .rtl .subtitle {
+  color: #94a3b8;
+}
+
+.dark .rtl .divider-text {
+  color: #64748b;
+}
+

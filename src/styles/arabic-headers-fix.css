@@ -1,0 +1,331 @@
+/* تحسينات خاصة بتنسيق العناوين العربية */
+
+/* العناوين الرئيسية */
+.rtl h1 {
+  font-family: 'Tajawal', 'Cairo', 'Almarai', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.rtl h2 {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.rtl h3 {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.4;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.rtl h4 {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+  line-height: 1.4;
+  text-align: right;
+  margin-bottom: 0.875rem;
+}
+
+.rtl h5 {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  line-height: 1.5;
+  text-align: right;
+  margin-bottom: 0.75rem;
+}
+
+.rtl h6 {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.5;
+  text-align: right;
+  margin-bottom: 0.625rem;
+}
+
+/* تحسين عرض العناوين في البطاقات */
+.rtl .card h1,
+.rtl .card h2,
+.rtl .card h3,
+.rtl .card h4,
+.rtl .card h5,
+.rtl .card h6 {
+  text-align: right;
+  margin-bottom: 0.75rem;
+}
+
+/* تحسين عرض العناوين في الهيرو */
+.rtl .hero-title {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 800;
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #10b981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+}
+
+/* تحسين عرض العناوين الفرعية */
+.rtl .hero-subtitle {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.3;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 1.25rem;
+}
+
+.dark .rtl .hero-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* تحسين عرض النصوص الوصفية */
+.rtl .hero-description {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.7;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.dark .rtl .hero-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* تحسين عرض عناوين الأقسام */
+.rtl .section-title {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.rtl .section-subtitle {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.6;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.dark .rtl .section-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* تحسين عرض عناوين البطاقات */
+.rtl .card-title {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.4;
+  text-align: right;
+  margin-bottom: 0.75rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.dark .rtl .card-title {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* تحسين عرض النصوص في البطاقات */
+.rtl .card-description {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  line-height: 1.6;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.dark .rtl .card-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* تحسين عرض النصوص في الأزرار */
+.rtl button,
+.rtl .btn {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  text-align: center;
+  letter-spacing: 0;
+}
+
+/* تحسين عرض النصوص في القوائم */
+.rtl .nav-link {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  text-align: right;
+}
+
+/* تحسين عرض النصوص في الفوتر */
+.rtl .footer-text {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* تحسين عرض النصوص في النماذج */
+.rtl input,
+.rtl textarea,
+.rtl select {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+
+.rtl input::placeholder,
+.rtl textarea::placeholder {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  direction: rtl;
+}
+
+/* تحسين عرض الأرقام والإحصائيات */
+.rtl .stat-number {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+  text-align: center;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+.rtl .stat-label {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* تحسين عرض التواريخ */
+.rtl .date {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: right;
+}
+
+/* تحسين عرض الشارات والعلامات */
+.rtl .badge,
+.rtl .tag {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.75rem, 1.25vw, 0.875rem);
+  text-align: center;
+}
+
+/* تحسين المسافات والهوامش للعناوين */
+.rtl h1 + p,
+.rtl h2 + p,
+.rtl h3 + p,
+.rtl h4 + p,
+.rtl h5 + p,
+.rtl h6 + p {
+  margin-top: 0.5rem;
+}
+
+/* تحسين التباعد بين العناصر */
+.rtl .space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.rtl .space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.rtl .space-y-8 > * + * {
+  margin-top: 2rem;
+}
+
+/* تحسين عرض النصوص الطويلة */
+.rtl .text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* تحسين عرض الاقتباسات */
+.rtl blockquote {
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.7;
+  text-align: right;
+  border-right: 4px solid #3b82f6;
+  border-left: none;
+  padding-right: 1.5rem;
+  padding-left: 0;
+  margin: 1.5rem 0;
+  font-style: normal;
+}
+
+/* تحسين عرض الكود */
+.rtl code {
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+.rtl pre {
+  direction: ltr;
+  text-align: left;
+}
+
+/* تحسين عرض الجداول */
+.rtl table {
+  direction: rtl;
+}
+
+.rtl th,
+.rtl td {
+  text-align: right;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+.rtl th {
+  font-weight: 600;
+}
+
+.rtl td {
+  font-weight: 400;
+}
+
