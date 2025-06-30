@@ -38,7 +38,7 @@ const TimelineSection = ({ language }) => {
       year: "2023",
       title: language === 'ar' ? 'مصمم ومطور مواقع' : 'Website designer and developer',
       company: language === 'ar' ? ' رونق للدعاية والاعلان ' : 'Rawnaq Advertising and Publicity',
-      location: language === 'ar' ? 'صنعاء، اليمن' : 'Sana'a,  Yemen',
+      location: language === 'ar' ? 'صنعاء، اليمن' : 'Sanaa,  Yemen',
       description: language === 'ar'
         ? 'انضممت إلى فريق التصميم في شركة رائدة في مجال التقنيات الرقمية، حيث ركزت على تصميم تجارب المستخدم وواجهات التطبيقات.'
         : 'Joined the design team at a leading digital technology company, focusing on user experience design and application interfaces.',
@@ -54,7 +54,7 @@ const TimelineSection = ({ language }) => {
       year: "2024",
       title: language === 'ar' ? 'مصمم UI/UX' : 'UI/UX Designer',
       company: language === 'ar' ? 'فريق إدراك ' : 'Edraak Team',
-      location: language === 'ar' ? 'صنعاء، اليمن' : 'Sana'a,  Yemen',
+      location: language === 'ar' ? 'صنعاء، اليمن' : 'Sanaa,  Yemen',
       description: language === 'ar'
         ? 'تطوير مهاراتي في تطوير التطبيقات المتقدمة باستخدام Flutter، مع التركيز على الحلول المبتكرة.'
         : 'Advanced my skills in sophisticated app development using Flutter  , focusing on innovative solutions.',
