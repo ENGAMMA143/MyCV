@@ -76,7 +76,7 @@ const TimelineSection = ({ language }) => {
         : 'Combining my development and design expertise with digital marketing to provide comprehensive solutions for clients .',
       achievements: [
         language === 'ar' ? 'إطلاق وكالة رقمية' : 'Launched digital agency',
-        language === 'ar' ? 'تحقيق نمو 200% في الإيرادات' : 'Achieved 200% revenue growth',
+        language === 'ar' ? 'تحقيق نمو 100% في الإيرادات' : 'Achieved 200% revenue growth',
         language === 'ar' ? 'توسيع الخدمات عالمياً' : 'Expanded services globally'
       ],
       type: 'current',
